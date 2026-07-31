@@ -467,8 +467,8 @@ while running:
     # -----------------------
 
     # -----------------------
-# Update + Draw Planets
-# -----------------------
+    # Update + Draw Planets
+    # -----------------------
 
     for planet in planets:
 
