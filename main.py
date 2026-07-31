@@ -346,14 +346,14 @@ while running:
                     camera
                         ):
 
-                    # თუ უკვე არჩეულია -> მეორე დაჭერა
+                    # If already chosen --> clicking again
                         if selected_planet == planet:
 
                             camera.target = planet
                             camera.target_zoom = 3.0
                             camera.manual_zoom = False
 
-                        # პირველი დაჭერა
+                        # Just one/first cllick
                         else:
 
                             selected_planet = planet
@@ -362,7 +362,7 @@ while running:
                         break
 
 
-                # თუ არაფერს არ დააჭირე -> კამერის მოძრაობა
+                # Camera muvement if nothing is clicked
                 if not clicked:
 
                     selected_planet =None
